@@ -1,0 +1,192 @@
+
+#img1 {
+    width: 100%;
+    height:300px;
+    margin-top:-40;
+    }
+#titulos{
+    width: 100%;
+    height: 130px;
+    border: 3px solid #000;
+    background-color: #000;
+}
+#logo-1{
+    width:80px;
+    height:80px;
+    margin-top: -410px;
+    float: left; 
+    margin-left: 20px;
+
+}
+#menu-navegacion{
+    margin-top:-400px;
+   float: right;
+
+}
+
+ #enlaces{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     
+ }
+ /* botones menu web */
+ #estilos-botones{
+    margin-top: 70px;
+    border: 2px solid;
+    list-style: none;
+    display: inline;
+    margin: 0 10px 0 0;
+    padding-bottom: 5px;
+    padding-left: 15px;  
+    padding-right: 15px;
+    padding-top: 5px;
+    background-color: rgb(23, 206, 7);
+    border-radius:4px;
+    border-color: aliceblue;   
+    
+}
+  #contacto-boton{
+      background-color: rgb(22, 56, 37);
+      margin-top: 70px;
+    border: 2px solid;
+    list-style: none;
+    display: inline;
+    margin: 0 10px 0 0;
+    padding-bottom: 5px;
+    padding-left: 15px;  
+    padding-right: 15px;
+    padding-top: 5px;
+    border-radius:4px;
+    border-color: aliceblue;   
+  }
+
+  h3 {
+    color: white;
+    text-align: center;
+    margin-top:20px;
+    font-family:impact;
+}
+#barra-actualizaciones{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(18, 41, 33);
+    margin-top:-55px;
+    
+}
+#img2{
+    width:100%;
+    position:absolute;
+
+}
+#entradas{
+    position: relative;
+    
+ }
+#cuadro-texto{
+    width: 900px;
+    height: 1600px;
+    background-color: azure;
+    position: relative;
+    left: 200px;
+    padding-top: 110px;
+    padding-left: 150px;
+;
+   
+}
+#mision{
+    width: 600px;
+    margin-left: 150px;
+   text-align:left;
+}
+#textos-contacto{
+    width: 800px;
+    margin-left: 250px;  
+    font-size: 18px;
+    text-align:left;
+    
+}
+#correo{
+    color: black;
+
+}
+ /* Tabla información */
+td,th{
+    
+  text-align: left;
+  padding: 8px;
+
+}
+#texto-info-adicional{
+    width: 500px;
+}
+#ancho-texto{
+    width: 400px;
+}
+#texto-destacado{
+    font-weight: bold;
+}
+#texto-correo{
+    text-decoration: none;
+    color: black;
+}
+
+
+ol{
+    width:600px;
+}
+#cuadrado{
+    list-style-type: square;
+    width: 600px;
+}
+ul{
+    list-style-type:lower-latin;
+    width: 900px;
+}
+li{
+    width: 700px;
+}
+
+ /* formulario inscripción*/
+ .form-registro{
+     width: 900px;
+     position: relative;
+     background-color:rgb(122, 231, 171);
+     margin: auto;
+     border-radius: 3px;
+    padding-top: 100px;
+    padding-left: 200px;
+    height: 1000px;
+    padding-right: 200px;
+    border-color: rgb(255, 255, 255)solid 3px;
+
+    
+ }
+
+button{
+     background-color:rgb(255, 255, 255);
+    width:80px;
+    height: 30px;
+    border-radius: 8px;
+    
+}
+label{
+    margin-left: 50px;
+
+}
+
+ /* Mapas*/
+
+ #mapas{
+     margin-top: 100px;
+     
+
+ }
+ #date{
+     position: relative;
+     margin: auto;
+    margin-left: 10px;
+
+ }
+ #firma-d{
+     margin-left:10px;
+ }

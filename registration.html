@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>northside youth soccer league</title>
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <section id="titulos"></section>
+        <img id="img1" src="design2_image1.jpg" alt="niños jugando futbol">
+        <img id="logo-1" src="nysl_logo.png">
+        
+        <nav id="menu-navegacion">
+            <ul>
+                  <li id="estilos-botones"><a id="enlaces" href="index.html">Home</a></li>
+                  <li id="estilos-botones"><a id="enlaces" href="about.html">About NYSL</a></li>
+                  <li id="estilos-botones"><a id="enlaces" href="informacion-del-juego.html">Games</a></li>
+                  <li id="estilos-botones"><a id="enlaces" href="registration.html">Inscripciones</a></li>
+                  <li id="estilos-botones"><a id="enlaces" href="reglas-juego.html">Game Rules</a></li>
+                  <li id="contacto-boton"><a id="enlaces" href="contact.html">Contact</a></li>
+             </ul>
+           </nav>      
+    </header>
+    <main> 
+        <section>
+                <h3>Registration</h3>
+                <section id="barra-actualizaciones"></section>
+        </section>
+        <section><img id="img2" src="img-basetextos.jpg" alt="fondo cancha futbol"></section>
+
+        <section class="form-registro">
+            <br>
+            <h4>Formulario Registro</h4>
+            <form action="show_data.html" method="get"> 
+                <br>
+
+                <label for="nombre-jugador">Nombre del jugador</label>
+                <input type="text" id="nombre-jugador" name="nombre-jugador" placeholder="Ingrese nombre jugador">
+                
+                <label for="apellido-jugador">Apellido</label>
+                <input type="text" id="apellido-jugador" name="apellido-jugador" placeholder="Ingrese apellido jugador"><br><br>
+               <br>
+                <label for="Dirección">Dirección</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Ingrese direccion">
+               
+                <label for="Dirección">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Ingrese ciudad">
+                <label for="cod-postal">Codigo Postal</label>
+                <input type="text" id="cod-postal" name="cod-postal" placeholder="Ingrese código postal"><br><br>
+               <br>
+                <label for="fech.nac">Fecha Nacimiento</label>
+                <input type="date" id="fech.nac" name="fech.nac">
+                
+                <label for="genero">Genero</label>
+                <input type="radio" id="genero" name="hombre">Hombre
+                <input type="radio" id="genero" name="mujer">Mujer<br><br><br>
+               
+                <label for="grado">Grado</label>
+                <input type="checkbox" id="grado" name="grado">Preescolar
+                <input type="checkbox" id="grado" name="grado">1º
+                <input type="checkbox" id="grado" name="grado">2º
+                <input type="checkbox" id="grado" name="grado">3º
+                <input type="checkbox" id="grado" name="grado">4º
+                <input type="checkbox" id="grado" name="grado">5º<br>
+
+                <h4>¿De que escuela vives mas cerca?</h3>
+                    <select name="escuela-cercana">
+                        <option value="0">Selecciona--<option>
+                        <option type="radio">AJ Katzenmaier</option>
+                        <option>Greenbay</option>
+                        <option>Howard A Yeager</option>
+                        <option>Marjorie P Hart</option>
+                        <option>North Elementary</option>
+                        <option>South Elementary</option>
+
+                      </select>
+                <h4>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</h4>
+                <label for="posicion-juego"></label>
+                <input type="checkbox" id="posicion-juego" name="posicion-juego">Delantero
+                <input type="checkbox" id="posicion-juego" name="posicion-juego">Portero
+                <input type="checkbox" id="posicion-juego" name="posicion-juego">Medio campo
+                <input type="checkbox" id="posicion-juego" name="posicion-juego">Portero
+                <input type="checkbox" id="posicion-juego" name="grado">Defensa
+            
+
+  <br><br>
+  <h4>Tamaño uniforme</h4>
+    <select name="Talla-uniforme">
+        <option value="0">Selecciona--</option>
+        <option>Niño P</option>
+        <option>Niño M</option>
+        <option>Niño G</option>
+        <option>Pequeño</option>
+        <option>Mediano</option>
+        <option>Grande</option>
+        <option>Extra Grande</option>
+        <br><br>
+
+     </select>
+    
+     <h4>Permiso para jugar</h4>
+     <p id="txt-autorizacion">Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+        Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al ingresar mi nombre, reconozco que he leído la política de cancelación y acepto sus términos.</p>
+        
+        <br><br>
+        <p id="firma-d">Ingrese su nombre <input type="text" name="texto" placeholder="Su nombre acá"></p>
+        <p>Fecha<input type="date"  id="date" name="date"></p>
+
+  <button type="submit" value="Enviar">Enviar</button>
+  
+</form>
+</main>
+
+           
+</body>
+</html>
